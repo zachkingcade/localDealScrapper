@@ -1,6 +1,6 @@
 {
   "name": "localDealScrapper",
-  "version": "0.0.1",
+  "version": "0.2.0",
   "author": "Ionic Framework",
   "homepage": "https://ionicframework.com/",
   "scripts": {
@@ -9,7 +9,10 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "update-minor": "apv update minor && git commit -a && git push main origin",
+    "update-major": "apv update major && git commit -a && git push main origin",
+    "update-patch": "apv update patch && git commit -a && git push main origin"
   },
   "private": true,
   "dependencies": {
@@ -21,6 +24,7 @@
     "@angular/router": "~12.1.1",
     "@capacitor/core": "3.3.1",
     "@ionic/angular": "^5.5.2",
+    "appversion": "^1.7.1",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"

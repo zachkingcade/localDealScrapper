@@ -3,6 +3,12 @@ This is an ionic-angular android app that scraps local websites for new or free 
 
 # major updates
 
+### version 01
+* Created project structure
+* Added App version package
+* Added Puppeteer
+* Tested Ability to scrap Humble Bundle
+
 # Softwares of note
 These are the softwares of note that I used, also links to their docs pages so that I can easily get to them.<br><br>
 [Ionic w/ angular](https://ionicframework.com/docs)<br>
